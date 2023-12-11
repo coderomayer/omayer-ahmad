@@ -9,9 +9,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'DM' : ['DM Sans', 'sans-serif'],
-        'Inter' : [ 'Inter', 'sans-serif']
+        'Inter' : ['Inter', 'sans-serif']
       }
     },
   },
   plugins: [],
-}
+};
