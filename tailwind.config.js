@@ -8,8 +8,11 @@ export const theme = {
   extend: {
     fontFamily: {
       'DM': ['DM Sans', 'sans-serif'],
-      'Inter': ['Inter', 'sans-serif']
+      'Inter': ['Inter', 'sans-serif'],
+      Play: ['var(--font-playfair)'],
+      Poppins: ['var(--font-poppins)'],
     }
   },
 };
+
 export const plugins = [];

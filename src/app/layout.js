@@ -1,7 +1,24 @@
-import { Inter } from 'next/font/google'
+import { Inter, Playfair, Poppins} from 'next/font/google'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
+
+const playfair = Playfair ({
+  weight: ['400', '700', '800'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  variable: '--font-playfair',
+  display: 'swap',
+})
+
+const poppins = Poppins ({
+  weight: ['100', '300', '200','400', '700', '800'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  variable: '--font-poppins',
+  display: 'swap',
+})
+
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +28,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${playfair.variable}, ${poppins.variable}`}>{children}</body>
     </html>
   )
 }

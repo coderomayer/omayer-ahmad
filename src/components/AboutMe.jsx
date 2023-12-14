@@ -7,18 +7,18 @@ import Image from "next/image";
 
 const AboutMe = () => {
     return (
-        <section className="text-gray-400 my-20  md:my-36 ">
+        <section className="text-gray-400 my-20  md:my-36 font-Poppins ">
 
 
             <div class="flex items-center md:w-2/4 mb-4 md:mb-14">
-                <span className="text-2xl font-Inter font-bold my-2 text-white">About Me</span>
+                <span className="text-2xl  font-bold my-2 text-white">About Me</span>
                 <div class="flex-grow border-b ml-4"></div>
             </div>
 
 
-            <div className=" md:flex gap-8 font-DM ">
+            <div className=" md:flex gap-8 font-light ">
 
-                <div className="flex-1 mb-12">
+                <div className="flex-1">
                     <p>
                         Hello! I am Omayer Ahmad, a passionate coder who finds joy in creating and innovating through code. My coding journey began alongside my studies in 2020, driven by a deep love for technology.
                     </p>
@@ -28,7 +28,7 @@ const AboutMe = () => {
                     </p>
 
                     <p className="text-white">
-                        Currently, I serve as a front-end developer at <a href="https://bizup360.net/" className="text-lime-400 hover:underline">BizUp 360</a>, where I apply my expertise in technologies like:
+                        Currently, I serve as a front-end developer at <a href="https://bizup360.net/" className="text-lime-400 hover:underline">BizUp 360</a>, where I apply my expertise in technologies like: 
                     </p>
 
                     <div className="flex gap-16 my-4  font-mono mt-8">
@@ -65,7 +65,6 @@ const AboutMe = () => {
                 </div>
             </div>
             
-
         </section>
     )
 }

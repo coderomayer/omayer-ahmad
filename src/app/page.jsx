@@ -4,6 +4,8 @@
 
 
 import AboutMe from "@/components/AboutMe";
+import PortfolioProjects from "@/components/PortfolioProjects ";
+import WorkExperience from "@/components/WorkExperience";
 
 
 
@@ -14,13 +16,13 @@ const Home = () => {
       <div className="text-white">
         <h4 className='text-lime-400 font-mono'>Hi, my name is</h4>
 
-        <h2 className="text-4xl md:text-6xl font-DM font-bold my-3 relative">
+        <h2 className="text-4xl md:text-7xl font-Poppins font-extrabold my-3 relative">
           <span className="bg-gradient-to-br from-gray-100 to-gray-400 darken text-transparent bg-clip-text">
-            Omayer Ahmad
+            Omayer Ahmad.
           </span>
         </h2>
 
-        <h2 className=" text-4xl md:text-6xl font-Inter font-bold text-gray-400">JavaScript & React Enthusiast</h2>
+        <h2 className=" text-4xl md:text-6xl font-Poppins font-bold text-gray-400">JavaScript & React Enthusiast</h2>
         <p className='md:w-2/4 font-Inter font-light my-3 text-gray-400 '>
           Aspiring front-end developer with a focus on JavaScript and React.
           Familiar with Node.js and MongoDB, I m on a journey to deepen my
@@ -31,6 +33,14 @@ const Home = () => {
       {/* About me */}
 
       <AboutMe></AboutMe>
+
+      {/* WorkExperience */}
+
+      <WorkExperience></WorkExperience>
+
+      {/* Portfolio Projects  */}
+      
+      <PortfolioProjects></PortfolioProjects>
 
 
     </section>
